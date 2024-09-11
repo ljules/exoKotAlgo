@@ -15,7 +15,7 @@ import _10_Demos_et_tests.testerEnLot
  * Si la valeur est absente, la fonction retourne -1
  * @param value La valeur à chercher.
  * @param list Liste où chercher la valeur.
- * @return Indice de la dernière occurrence de la valeur cherchée.
+ * @return L'indice de la dernière occurrence de la valeur cherchée.
  */
 fun findLastValue(value: Number, list: List<Number>): Int {
     var iVal = -1

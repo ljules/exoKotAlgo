@@ -10,10 +10,10 @@ import _10_Demos_et_tests.*
  * La fonction prend un entier et une liste d'entiers.
  * Elle retourne l'indice de la valeur grâce à un algorithme
  * de recherche dichotomique.
- * Si la valeur est absente, la fonction retourne -1.
+ * Si la valeur est absente, la fonction retournera -1.
  * @param val Valeur (Int) recherchée.
  * @param list Liste d'entiers (Int)
- * @return Indice de la valeur recherchée, vaut -1 en absence de la valeur.
+ * @return L'indice de la valeur recherchée, vaut -1 en absence de la valeur.
  */
 fun rechercheDichotomique(cible: Int, list: List<Int>): Int {
     // A COMPLETER ICI

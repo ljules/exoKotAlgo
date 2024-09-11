@@ -6,12 +6,12 @@ Cette partie propose deux algorithmes faisant partie de la culture algorithmique
 ## Sujet 02-a : La recherche dichotomique
 
 ### Présentation de l'algorithme :
-Rechercher une valeur dans une collection comme une liste est un problème courant en informatique. Un aglorithme relativement performant pour réaliser cette tâche est l'algorithme de recherche par dichotomie. C'est un algorithme qui applique la stratégie : *"Diviser pour régner"* ou en anglais *"Divide and conquer"*. L'idée est de diviser/scinder les données à traiter en sous unités à traiter indépendamment.
+Rechercher une valeur dans une collection comme une liste est un problème courant en informatique. Un aglorithme relativement performant pour réaliser cette tâche est l'algorithme de recherche par dichotomie. C'est un algorithme qui applique la stratégie : *"Diviser pour régner"* ou en anglais *"Divide and conquer"*. L'idée est de diviser/scinder les données à traiter en sous-unités à traiter indépendamment.
 Pour creuser le sujet, vous pourrez consulter l'article sur Wikipédia : https://fr.wikipedia.org/wiki/Diviser_pour_régner_(informatique)
 
 Pour la recherche dichotomique l'objectif est de trouver une valeur dans une liste qui est **obligatoirement triée**.
 
-La stratégie appliquée va permettre de réduire par le domaine de recherche à chaque itération.
+La stratégie appliquée va permettre de réduire le domaine de recherche à chaque itération.
 
 ### Travail à réaliser :
 
@@ -44,7 +44,7 @@ Compléter la fonction `rechercheDichotomique(cible: Int, list: List<Int>): Int`
 ### Présentation de l'algorithme :
 Le tri de liste est une tâche fondamentale. Par exemple, l'algorithme de recherche dichotomique du problème précédant a besoin de listes triées pour fonctionner.
 
-Il existe de nombreux algorithmes de tris ayan des performances variables. Si vous êtes curieux sur le sujet la vidéo suivante illustre la performance des principaux algorithmes de tri : https://www.youtube.com/watch?v=kPRA0W1kECg
+Il existe de nombreux algorithmes de tris ayant des performances variables. Si vous êtes curieux sur le sujet la vidéo suivante illustre la performance des principaux algorithmes de tri : https://www.youtube.com/watch?v=kPRA0W1kECg
 
 Nous vous proposons d'implémenter le plus simple des algorithmes de tri : **le tri par sélection**.
 

@@ -11,11 +11,11 @@ import _10_Demos_et_tests.testerEnLot
 
 /**
  * Prend en argument une valeur numérique et une liste de valeurs numériques
- * et retourne dans la première occurrence de la valeur recherchée.
- * Si la valeur est absente, la fonction retourne -1.
+ * et retourne la première occurrence de la valeur recherchée.
+ * Si la valeur recherchée est absente de la liste, alors la fonction retourne -1.
  * @param value La valeur à chercher.
  * @param list Liste où chercher la valeur.
- * @return Indice de la 1ère occurrence de la valeur cherchée.
+ * @return L'indice de la 1ère occurrence de la valeur cherchée.
  */
 
 fun findFirstValue(value: Number, list: List<Number>): Int {

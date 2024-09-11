@@ -11,10 +11,10 @@ import _10_Demos_et_tests.testerEnLot
 
 /**
  * Fonction qui retourne la moyenne pondérée des valeurs passées en argument.
- * La valeur passée en argument est une liste de sous-liste. Chaque sous-liste
+ * La valeur passée en argument est une liste de sous-listes. Chaque sous-liste
  * contient le coefficient à l'indice 0 et la valeur à l'indice 1.
  * @param listeCoefVal Liste de sous-listes [coef, val]
- * @return Moyenne pondérée.
+ * @return La moyenne pondérée.
  */
 fun moyennePonderee(listeCoefVal: List<List<Number>>): Double {
     var moyenne = 0.0

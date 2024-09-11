@@ -110,11 +110,11 @@ Compléter la fonction `estPalindrome(texte: String): Boolean`. Elle prend en 1e
 
 ### Présentation de l'algorithme :
 
-Votre algorithme devra retrouver un gène dans une séquence d'ADN. Les séquences d'ADN sont codées à partir de 4 base nucléiques auxquels on fait correspondre 4 lettres : A, G, C et T
+Votre algorithme devra retrouver un gène dans une séquence d'**ADN**. Les séquences d'**ADN** sont codées à partir de 4 base nucléiques auxquels on fait correspondre 4 lettres : **A**, **G**, **C** et **T**
 
-Nous représenterons toute séquence d'ADN par une chaîne de caractères comportant les lettres AGCT.
+Nous représenterons toute séquence d'**ADN** par une chaîne de caractères comportant les lettres **AGCT**.
 
-Un gène est une portion d'ADN comportant une séquence donnée des lettre A, G, C et T.
+Un gène est une portion d'**ADN** comportant une séquence donnée des lettre **A**, **G**, **C** et **T**.
 
 A voir : https://fr.wikipedia.org/wiki/Code_génétique
 

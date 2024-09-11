@@ -1,12 +1,12 @@
 # SUJET 03 : Manipulation de listes
 
 ## Présentation générale :
-Cette partie propose des problèmes qui applique des manipulations comme des permutations de valeurs dans des listes.
+Cette partie propose des problèmes qui appliquent des manipulations comme des permutations de valeurs dans des listes.
 
 ## Sujet 03-a : Supprimer les doublons
 
 ### Présentation de l'algorithme :
-La fonction prend tout simplement une liste contenant potentiellement des valeurs en doublon. Elle retourne une copie de liste initiale sans les doublons mais en conservant l'ordre initiale des valeurs.
+La fonction prend tout simplement une liste contenant potentiellement des valeurs en doublon. Elle retourne une copie de liste initiale sans les doublons, mais en conservant l'ordre initiale des valeurs.
 
 ### Travail à réaliser :
 
@@ -52,7 +52,7 @@ Compléter la fonction `inverserListe(liste: List<Int>): MutableList<Int>`. Elle
 ## Sujet 03-c : Zéro à gauche & un à droite
 
 ### Présentation de l'algorithme :
-L'algorithme traite des listes comportant uniquement des 0 et 1 comme valeurs. Il retourne une copie de la liste avec tous les 0 placés à gauches et tous les 1 placés à droite. 
+L'algorithme traite des listes comportant uniquement des 0 et 1 comme valeurs. Il retourne une copie de la liste avec tous les 0 placés à gauche et tous les 1 sont placés à droite. 
 
 ### Travail à réaliser :
 

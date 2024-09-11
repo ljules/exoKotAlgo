@@ -4,7 +4,7 @@
 Cette partie propose des exercices faisant travailler sur le parcours de listes avec des traitements simples.
 
 ## Sujet 01-a : Chercher le max
-Compléter la fonction `firstMax(list: List<Int>): List<Int>` qui prend argument une liste d'entiers et qui retourne une liste qui comporte en 1ère valeur le maxi contenue dans la liste et en second en seconde valeur l'indice de la 1ère **occurrence** de la valeur maxi de la liste.
+Compléter la fonction `firstMax(list: List<Int>): List<Int>` qui prend en argument une liste d'entiers et qui retourne une liste qui comporte en 1ère valeur le maxi contenue dans la liste et en second en seconde valeur l'indice de la 1ère **occurrence** de la valeur maxi de la liste.
 
 ### EXEMPLE 1 :
 * Liste donnée : [5, -10, 7, -20, 3, 2, 5, 7, 2, 7]
@@ -42,7 +42,7 @@ Compléter la fonction `findLastValue(value: Number, list: List<Number>): Int` a
 
 
 ## Sujet 02-d : Trouver le nombre d'occurrences d'une valeur
-Compléter la fonction `nombreOccurrences(target: Int, list: List<Int>): Int` afin quelle retourne le nombre d'occurrences de la valeur passée en argument.
+Compléter la fonction `nombreOccurrences(target: Int, list: List<Int>): Int` afin qu'elle retourne le nombre d'occurrences de la valeur passée en argument.
 
 ### EXEMPLE 1 :
 * La valeur 7 avec [5, -10, 7, -20, 3, 2, 5, 7, 2, 7]
@@ -61,3 +61,4 @@ Compléter la fonction `moyennePonderee(listeCoefVal: List<List<Number>>): Doubl
 
 ### EXEMPLE 2 :
 * La liste [[2, 15.0], [1, 10.0], [1, 20.0]] a pour moyenne : 15.0
+
